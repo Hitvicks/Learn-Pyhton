@@ -44,7 +44,7 @@ print(pilihan[number])
 print('\nKomputer Pilih')
 print(pilihan[r_com])
 
-if number == r_com:
+if number == r_com: # disini dijelaskan mengenai perbandingan untuk memilih menang kalah dan serinya
     print('Seri apakah mau lanjut')
 elif number == 0 and r_com == 2:
     print('Hasil: kamu menang')
@@ -55,3 +55,4 @@ elif number == 2 and r_com == 1:
 else:
     print("Hasil: Anda Kalah!")
 
+#disini saya membuat sebuah permainan batu gunting kertas dengan mengetik code saja
